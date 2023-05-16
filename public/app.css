@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    max-width: 600px;
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    line-height: 1.2;
+}
+
+article + article {
+    margin-top: 3rem;
+    border-top: 1px solid rgb(202, 192, 192);
+    padding-top: 3rem;
+} 
